@@ -41,9 +41,9 @@ This project is a multi-threaded web server implemented in Rust. It listens on p
 The server will start listening on `localhost:7878`.
 
 
-Project Structure
-src/main.rs: Entry point of the application.
-src/lib.rs: Contains the implementation of the ThreadPool, Worker, and job handling logic.
-src/worker.rs: Defines the Worker struct and its associated methods.
-src/thread_pool.rs: Defines the ThreadPool struct and its associated methods.
-src/job.rs: Defines the job struct and its associated methods.
+## Project Structure
+- src/main.rs: Entry point of the application.
+- src/lib.rs: Contains the implementation of the ThreadPool, Worker, and job handling logic.
+- src/worker.rs: Defines the Worker struct and its associated methods.
+- src/thread_pool.rs: Defines the ThreadPool struct and its associated methods.
+- src/job.rs: Defines the job struct and its associated methods.
